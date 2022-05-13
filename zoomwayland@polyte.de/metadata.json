@@ -1,0 +1,10 @@
+{
+  "name": "Zoom Wayland Extension",
+  "description": "Enables Zoom Screensharing under Wayland",
+  "uuid": "zoomwayland@polyte.de",
+  "shell-version": [
+    "42"
+  ],
+  "version": 0.1,
+  "url": "https://github.com/julianpollmann/zoom-wayland-gnome-extension"
+}
