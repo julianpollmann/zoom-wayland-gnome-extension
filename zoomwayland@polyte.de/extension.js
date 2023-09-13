@@ -41,7 +41,7 @@ class Indicator extends PanelMenu.Button {
 
         let switchItem = new PopupMenu.PopupSwitchMenuItem(_('Enable Zoom Screensharing'), false);
         switchItem.connect('toggled', () => {
-          global.context.unsafe_mode = !global.context.unsafe_mode
+          global.context.unsafe_mode = switchItem.state
         });
 
         this.menu.addMenuItem(switchItem);
